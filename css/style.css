@@ -1,0 +1,146 @@
+/* @group Reset */
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+h1,h2,h3,h4,h5,h6,pre,code,address,caption,cite,code,em,strong,th {font-size: 1em; font-weight: normal; font-style: normal;}
+ul,ol {list-style: none;}
+fieldset,img {border: none;}
+caption,th {text-align: left;}
+table {border-collapse: collapse; border-spacing: 0; margin-bottom: 18px;}
+.clear {clear: both; display: block; height: 0; overflow: hidden; width: 0;}
+.clearfix { *zoom: 1;}
+.clearfix:before,.clearfix:after {  display: table;  content: "";  line-height: 0;}
+.clearfix:after {  clear: both;}
+:focus{outline:0}
+/* @group General */
+body {font: 14px/1.5em Arial, sans-serif; background-color: #fff; color: #000;}
+a {color: #666666;}
+a:hover {color: #000;text-decoration: none;}
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+sup {padding-left: 1px; font-size: 10px !important; font-weight: normal !important; vertical-align: baseline; position: relative; bottom: 0.33em; color: #777; _position: static !important;}
+abbr {border: 0;}
+p {margin-bottom: 18px;}
+h1 {font-weight: bold; font-size: 20px; line-height: 1.2em; margin-bottom: 18px;}
+h2 {font-weight: bold; font-size: 16px; line-height: 1.2em; margin-bottom: 12px;}
+h3 {font-weight: bold; font-size: 14px; line-height: 1.2em; margin-bottom: 8px;}
+h4,h5,h6 {font-weight: bold; font-size: 1em; line-height: 16px; margin-bottom: 8px;}
+blockquote {margin: 1.5em 0; padding: 18px 18px 0; color: #333; border:1px solid #ccc; background-color: #fff;}
+hr {border: 0 none #ddd; clear: both; height: 0; border-top: 1px solid #ccc; border-bottom: 1px solid #fff; margin: 18px 0;}
+pre, code {font-family: Courier, "Courier New", monospace; font-size: 12px; color: #666;}
+pre {margin: 0 0 1em 0; padding: 0 0 0.5em 0; white-space: pre-wrap;}
+dl {margin-bottom: 18px;}
+.hide {display: none;}
+.error-hint { color: red; }
+/* iPhone */
+@media screen and (max-device-width: 480px) {
+html {-webkit-text-size-adjust: none;}
+}
+
+/* @group Content */
+#wrapper, body {
+	font: 14px/1.5em Arial,Tahoma,sans-serif;
+	background: #FAFAFA url('../images/bg.png') repeat scroll 0 0;
+	color: #555555;
+}
+h1, h2, h3, h4, h5, h6, h7 {margin:0; padding:0; text-align:left; font-weight:bold; color:#000; line-height:1.5em}
+h1{font-size:20pt; margin:0}
+h2{font-size:18pt}
+h3{font-size:16pt}
+h4{font-size:12pt; letter-spacing:0}
+h5, h6, h7{font-size:12pt; letter-spacing:0}
+input, textarea {
+	font: 14px/1.5em Arial,Tahoma,sans-serif;
+}
+ul, ol {margin: 0 0 1.625em 2.5em;}
+ul {list-style: square;}
+ol {list-style-type: decimal;}
+ol ol {list-style: upper-alpha;}
+ol ol ol {list-style: lower-roman;}
+ol ol ol ol {list-style: lower-alpha;}
+ul ul, ol ol, ul ol, ol ul {margin-bottom: 0;}
+
+.alert {
+	border: 1px solid #EED3D7;
+	border-radius: 4px 4px 4px 4px;
+	padding: 8px 35px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	background-color: #F2DEDE;
+	color: #B94A48;
+	margin: 0 20px 20px 20px;
+}
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #3a87ad;
+}
+.bank-container > .row-fluid {
+    margin: 0 auto;
+    max-width: 1072px;
+}
+.box-wrap {
+	padding: 20px;
+}
+.box {
+	background-color: #FFFFFF;
+	border-top: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	margin-bottom: 40px;
+}
+.box .bank-detail {
+	background: url("../images/divide.png") repeat-x scroll center bottom transparent;
+	margin: 0 -1px;
+	padding: 0 1px 20px;
+}
+.box .head {
+	padding: 20px;
+	font-size: 40px;
+	line-height: 1em;
+}
+.box .bank-name {
+	padding-top: 10px;
+}
+.box .bank-logo {
+	float: left;
+	padding-right: 20px;
+}
+.box .table tr th {
+	font-weight: bold;
+	color: #333;
+}
+.box .table tr td.r {
+	text-align: right;
+}
+.content {
+
+}
+.content .load {
+	text-align: center;
+	width: 250px;
+	margin: 10px auto;
+	border-radius: 6px 6px 6px 6px;
+	line-height: 1.33;
+	padding: 10px 16px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	background-color: #999;
+	border: 2px solid #666;
+	color: #FFFFFF !important;
+}
+.encode-wrap {
+	padding: 40px;
+}
+.encode-wrap .title {
+	padding: 20px;
+	font-size: 28px;
+	line-height: 1em;
+}
+
+@media (max-width:767px) {
+	.box .head {
+		font-size: 32px;
+	}
+	.encode-wrap {
+		padding: 20px;
+	}
+}

@@ -1,0 +1,12 @@
+/*
+IE6
+* html .color {}
+IE7
+*+html .color {}
+IE8
+@media \0screen {}
+#id {height: 300px\0/;}
+html>/__**__/body #id {} : remove __
+IE9
+:root .color {}
+*/

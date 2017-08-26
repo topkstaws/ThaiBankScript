@@ -1,0 +1,10 @@
+<?php
+$K_USERNAME = 'fHcd5ae/OL4CWcb6HRwKIj59t/E+jFD1S7HVxuhDoc4=';
+$K_PASSWORD = 'Vhi8RnsPto5c8dH7Q4PPclJrvkwMFOnHpNSEtIW0emk=';
+$K_ACCOUNT_NAME = '330-2-50687-7';
+
+$S_USERNAME = 'IkU+WnNU4NQjOE1UU4cbkHW4bcb1vftcoyJK8FgRgtc=';
+$S_PASSWORD = 'hAkwFLQSWyjctbor3O98r+Dc+0Yd7GFY7zA0ffbwNpc=';
+$S_ACCOUNT_NAME = '291-2-39983-0';
+
+?>
